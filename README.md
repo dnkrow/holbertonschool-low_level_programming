@@ -1,9 +1,12 @@
-# README
+README
+Why Commit Conventions Matter
 
-## Pourquoi les conventions de commits sont importantes
+Immediate clarity: Consistent messages make it easy to understand the purpose of a commit without rereading the entire diff.
 
-- **Clarté immédiate** : Des messages homogènes permettent de comprendre rapidement l'objet d'un commit sans relire tout le diff.
-- **Historique navigable** : Quand chaque commit suit la même structure, on peut filtrer, rechercher ou générer automatiquement des changelog utiles.
-- **Revue facilitée** : Les reviewers identifient plus vite l'intention d'une modification et peuvent se concentrer sur la qualité du code.
-- **Automatisation possible** : Les outils CI/CD, la génération de versions ou de notes de release s'appuient sur des conventions pour catégoriser les changements.
-- **Onboarding accéléré** : Une équipe qui respecte une convention partagée réduit la courbe d'apprentissage pour les nouveaux arrivants et garde un projet cohérent dans le temps.
+Navigable history: When every commit follows the same structure, it becomes simple to filter, search, or automatically generate useful changelogs.
+
+Easier reviews: Reviewers can quickly grasp the intent of a change and focus on the quality of the code.
+
+Automation ready: CI/CD tools, versioning systems, and release notes generators rely on conventions to categorize changes.
+
+Faster onboarding: A team that follows a shared convention shortens the learning curve for newcomers and keeps the project consistent over time.
