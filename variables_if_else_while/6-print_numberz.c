@@ -2,15 +2,14 @@
 
 /**
  * main - prints all single digit numbers of base 10 starting from 0
- * Return: always 0
+ * Return: Always 0
  */
-
 int main(void)
 {
-	int digit;
+	int num;
 
-	for (digit = '0'; digit <= '9' ; digit++)
-		putchar(digit);
+	for (num = 0; num < 10; num++)
+		putchar(num + '0');
 
 	putchar('\n');
 	return (0);
