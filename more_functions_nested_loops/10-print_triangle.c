@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - prints a right-aligned triangle using the character '#'
- * @size: the height and width of the triangle
+ * @size: the height of the triangle
  *
  * Return: void
  */
@@ -21,6 +21,11 @@ void print_triangle(int size)
 		{
 
 			for (space = size - row; space > 0; space--)
+			{
+				_putchar(' ');
+			}
+
+			for (hash = 0; hash < row; hash++)
 			{
 				_putchar('#');
 			}
