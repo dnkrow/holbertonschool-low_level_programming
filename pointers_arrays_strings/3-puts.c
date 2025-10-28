@@ -14,13 +14,14 @@ void _puts(char *str)
 		return;
 	}
 
-	/* écrit chaque caractère jusqu'au zéro final */
+
 	while (str[idx] != '\0')
 	{
+
 		_putchar(str[idx]);
 		idx++;
 	}
 
-	/* saute une ligne pour terminer proprement */
+
 	_putchar('\n');
 }

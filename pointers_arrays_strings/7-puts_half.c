@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_half - prints the second half of a string
+ * puts_half - prints the second half of string
  * @str: string to process
  */
 void puts_half(char *str)
@@ -19,15 +19,13 @@ void puts_half(char *str)
 		len++;
 
 	if ((len % 2) == 0)
-		/* longueur paire, on coupe au milieu */
+
 		start = len / 2;
 	else
-		/* longueur impaire, on saute le caractère central */
+
 		start = (len - 1) / 2 + 1;
 
 	for (idx = start; idx < len; idx++)
-		/* affiche uniquement la seconde moitié */
-		_putchar(str[idx]);
 
-	_putchar('\n');
+		_putchar(str[idx]);
 }

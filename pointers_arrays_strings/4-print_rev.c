@@ -14,14 +14,13 @@ void print_rev(char *s)
 		return;
 	}
 
-	/* mesure la longueur pour partir de la fin */
 	while (s[len] != '\0')
 		len++;
 
 	while (len > 0)
 	{
 		len--;
-		/* remonte caractère par caractère */
+
 		_putchar(s[len]);
 	}
 
