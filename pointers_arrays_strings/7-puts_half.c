@@ -28,4 +28,6 @@ void puts_half(char *str)
 	for (idx = start; idx < len; idx++)
 
 		_putchar(str[idx]);
+
+	_putchar('\n');
 }
