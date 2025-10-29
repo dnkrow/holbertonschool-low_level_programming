@@ -9,19 +9,16 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int idx = 0;
+	int i = 0;
 
 	if (dest == 0 || src == 0)
 		return (dest);
 
-	/* recopie chaque caractère jusqu'au zéro */
-	while (src[idx] != '\0')
+	while (src[i] != '\0')
 	{
-		dest[idx] = src[idx];
-		idx++;
+		dest[i] = src[i];
+		i++;
 	}
-	/* ajoute le zéro terminal à la fin */
-	dest[idx] = '\0';
-
+	dest[i] = '\0';
 	return (dest);
 }
