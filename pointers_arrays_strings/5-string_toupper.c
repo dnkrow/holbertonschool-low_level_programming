@@ -6,6 +6,7 @@
  *
  * Return: pointer to str
  */
+
 char *string_toupper(char *str)
 {
 	int i = 0;
@@ -14,7 +15,7 @@ char *string_toupper(char *str)
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			str[i] -= 'a' - 'A';
+			str[i] -= 'a' - 'a';
 		}
 
 		i++;
