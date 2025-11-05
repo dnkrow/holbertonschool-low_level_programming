@@ -1,8 +1,10 @@
 {
   "editor.formatOnSave": false,
   "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": null,
   "[c]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   }
 }
 {
