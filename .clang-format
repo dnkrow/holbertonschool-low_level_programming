@@ -1,0 +1,16 @@
+# Approximate Betty style for automatic formatting with clang-format.
+# Note: Betty enforce des règles supplémentaires (linter). clang-format corrige
+# indentation/espaces/parenthèses mais ne garantit pas le passage complet de Betty.
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+# Use tabs for indentation (Betty requires tabs for indentation)
+UseTab: ForIndentation
+ColumnLimit: 80
+# Place opening brace on the next line for function definitions (Allman)
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: Empty
+SpaceBeforeParens: ControlStatements
+# Make pointer '*' align to the variable side ("int *var"), which matches Betty's expectations
+DerivePointerAlignment: false
+PointerAlignment: Right
